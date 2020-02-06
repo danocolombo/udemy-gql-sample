@@ -8,7 +8,7 @@ const port = process.env.PORT || 4000;
 const app = express();
 
 mongoose.connect(
-    "mongodb+srv://USERNAME:PASSWORD@rogueintel-ox4iq.mongodb.net/test",
+    "mongodb+srv://udemy:Admin@rogueintel-ox4iq.mongodb.net/test",
     { useNewUrlParser: true, useUnifiedTopology: true }
 );
 mongoose.connection.once("open", () => {
